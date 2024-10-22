@@ -34,7 +34,7 @@ Ensure your repository has the following structure:
    - Inside the `workflows` directory, create a file named `main.yml`.
 
 ## Workflow Configuration
-Edit the `build.yml` file with the following configuration:
+Edit the `main.yml` file with the following configuration:
 
 ```yaml
 name: Run SARA Installation and Customize Screen Ransomware
