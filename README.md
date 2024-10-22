@@ -63,7 +63,7 @@ jobs:
         # Install dependencies
         sudo bash install.sh
         # Automatically select option 3 and fill in custom configuration
-        echo -e "3\nmiss\nswati\nhellow word\n/codespess/icon.png\n12345678\n2" | python3 sara.py || true
+        echo -e "3\nmiss\nswati\nhellow word\nrobot.png\n12345678\n2" | python3 sara.py || true
         
         # Check if miss.apk was created
         if [ ! -f miss.apk ]; then
